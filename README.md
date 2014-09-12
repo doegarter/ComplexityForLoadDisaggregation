@@ -2,7 +2,7 @@ ComplexityForLoadDisaggregation
 ===============================
 
 ##CREATING A BUILDING OBJECT
-When creating a Building object it is possible to give the number of steps of the combinations to the constructor. The number of the house is also specified in the constructor as the second parameter. The third parameter is a list containing the appliances which should be used. The fourth and last parameter is a string containing the path to the file in which the states of the appliances are stored. At the moment, it only works with appliances which are within the REDD. However, parsers or converters for other datasets could be easily developed.
+When creating a Building object it is possible to give the number of steps of the combinations to the constructor. The number of the house is also specified in the constructor as the second parameter. The third parameter is a list containing the appliances which should be used. The fourth and last parameter is a string containing the path to the file in which the states of the appliances are stored. At the moment, it only works with appliances which are within the [REDD](http://redd.csail.mit.edu/). However, parsers or converters for other datasets could be easily developed.
 
  ```
 redd_house_1 = Building(n = 10000, house_n =1, dataset=(3, 5, 6, 7, 11, 19), dat =’/home/student/Desktop/building_1.dat’)
