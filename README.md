@@ -25,7 +25,7 @@ redd_house_1.calc_total_complexity()
 ```
 
 ###Complexities of Single Appliances
-For calculating the complexities of single appliances, the measured power over time is not used. Instead, all states of all appliances must be given to the program. To calculate and plot the complex- ities of every possible state of the whole combination the function calc_subcomplexities() of the particular Building object is used. This generates all PDFs and calculates all cross-section-areas. Afterwards it creates SubComplexity a object for every possible state. At the same time the mean complexity is being calculated and printed to the command line output.
+For calculating the complexities of single appliances and combinations of power states of appliances, the measured power over time is not used. Instead, all states of all appliances must be given to the program. To calculate and plot the complex- ities of every possible state of the whole combination the function calc_subcomplexities() of the particular Building object is used. This generates all PDFs and calculates all cross-section-areas. Afterwards it creates SubComplexity a object for every possible state. At the same time the mean complexity is being calculated and printed to the command line output. The mean complexity represent the complexity of the power states of all appliance power states
 ```
 redd_house_3.calc_subcomplexities()
 ```
